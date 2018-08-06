@@ -219,6 +219,11 @@ case "${host_cpu}" in
 	newlib_cflags="${newlib_cflags}"
 	default_newlib_atexit_dynamic_alloc="no"
 	;;
+  rpu*)
+	machine_dir=riscv
+	newlib_cflags="${newlib_cflags}"
+	default_newlib_atexit_dynamic_alloc="no"
+	;;
   mips*)
 	machine_dir=mips
 	;;
